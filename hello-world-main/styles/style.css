@@ -1,0 +1,23 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap'); */
+
+
+
+h1{
+    color: red;
+    font-family: beba;
+}
+
+div.basic{
+    height: 50px;
+    width: 50px;
+    color:aqua ;
+    background-color: red;
+    text-align: center;
+    border: dotted 2px black;
+    padding: 5px;
+    margin-left: 12em;
+}
+*{
+    border: linen;
+}
