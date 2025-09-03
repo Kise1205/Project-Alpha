@@ -21,3 +21,7 @@ div.basic{
 *{
     border: linen;
 }
+
+button{
+    border: black;
+}
