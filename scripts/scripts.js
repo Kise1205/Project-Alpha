@@ -1,6 +1,6 @@
 
 document.
-    addEventListener()("DOMContentLoader",()=>{
+    addEventListener("DOMContentLoaded",()=>{
     console.log("we workin'!");
     document.getElementById('btnClicky').addEventListener('click',btnClicky);
     }
