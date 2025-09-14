@@ -16,24 +16,24 @@
       "ELXP" 0;
 }
 
-/* asdasd */
+
 body {
-    border: 5px red;
     background-color: rgb(214, 177, 150);
-    font-family: 'Raleway', sans-serif;
-    
+
 }
-/* .navbar-nav{
-    margin-left: 4rem;
-} */
 
 
-.nav-link {
-    color: white;            /* change text color */
+.nav-link, .navbar-brand{
+    color: black;      
     text-decoration: none; /* remove underline */
     font-weight: bolder;
     cursor: pointer;
 }
+
+.navbar-brand:hover{
+    color: black;
+}
+
 .nav-link:hover {
     color: white;            
     background-color: black;
@@ -46,7 +46,9 @@ h3{
     text-transform: uppercase;
 }
 
-
+.navbar-collapse{
+    justify-content: right;
+}
 
 .home-title {
     display: flex;
@@ -66,33 +68,74 @@ h3{
     border-image: initial;
     padding: 45px;
     margin: 0px;
-    /* display: inline-block; */
 }    
-.col-lg-8 {
-    flex: 0 0 auto;
-    width: 66.66666667%;
-}
-    .col-lg-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
-}
 
 
 #doge-1 {
     display: block;
+    width: 1000px;
+    height: 800px;
 }
 
 #doge-2 {
     display: none;
+    width: 600px;
+    height: 800px;
 }
 
-
-
+#imageContainer{
+    display: flex;
+    justify-content: center;
+}
+.click{
+    display: flex;
+    justify-content: center;
+}
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    color: white;
     text-align: center;
-  }
+}
+#fname{
+    color: chocolate;
+}
+#lname{
+    color: darkcyan;
+}
+#about-fname{
+    color: purple;
+}
+.container-fluid{
+    color: black;
+    font-weight: bolder;    
+}
+#about{
+    background-image: url('../assets/images/vintage_retro_lines_corner_background.jpg');
+    background-size: cover;      /* make it cover the whole page */
+    background-position: center; /* center the image */
+    background-repeat: no-repeat;/* avoid repeating tiles */
+    color: black;
+    font-weight: bolder;
+  
+}
+.navbar{
+    background-image: url('../assets/images/vintage_retro_lines_corner_background.jpg');
+    background-size: cover;      /* make it cover the whole page */
+    background-position: center; /* center the image */
+    background-repeat: no-repeat;/* avoid repeating tiles */    
+}
+#edu-bor{
+    border-top: black;
+    border-style: dotted none;
+}
+
+#edu-bor2{
+    border-top: black;
+    border-style: none none dotted;
+}
+.contact{
+    border: black;
+    border-style: dashed;
+}
