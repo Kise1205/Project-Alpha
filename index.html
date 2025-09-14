@@ -32,7 +32,7 @@
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
 			<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="mynavbar">
+			<div class="collapse navbar-collapse" style="justify-content: right;" id="mynavbar">
 				<div class="navbar-nav">
 					<a class="nav-link px-lg-4" href="pages/blog.html">ABOUT</a>
 					<a class="nav-link px-lg-4" href="pages/project.html">EDUCATION</a>
@@ -41,21 +41,38 @@
 			</div>
 		</div>
 	</nav>
-	<div class="container-fluid  mt-5">
-      	<div class="row home" id="home">
-        	<div class="row">
+	<div class="container-fluid mt-5 pt-4">
+      	<div class="row" id="home">
+        	<div class="col-xl-6 col-sm-12">
 				<p class="home-title">THUAN</p>
-				<p class="home-title">NGUYEN</p>      
+				<p class="home-title">NGUYEN</p>
+			</div>
+			<div class="col-xl-6 col-sm-12">
 				<p class="home-info">ONE HARRISON PLAZA · FLORENCE, AL 35632 · TNGUYEN20@UNA.EDU</p>        
 				<p>Welcome to my WEBSITE where I share information about myself!</p>
         	</div>
       	</div>
     </div>
 
+	<div class="container-fluid pt-5">
+		<div class="row">
+			<div class="col-12" id="imageContainer">
+				<img id="doge-1" src="assets/images/doge_meme_1.jpg" alt="doge meme 1">
+				<img id="doge-2" src="assets/images/doge_meme_2.jpg" alt="doge meme 2">
+			</div>
+			<div class="col-6">
+				<p>Click the image to see the magic</p>
+			</div>
+		</div>
+	</div>
+	
 	
 
 	<footer>
-		<button id ="btnClicky" type = "button" class="btn btn-outline-primary">Click me!</button>
+		<!-- <button id ="btnClicky" type = "button" class="btn btn-outline-primary">Click me!</button> -->
+		<nav class=" footer text-center bg-dark text-white">
+			Copyright © 2025 by Nguyen | All Rights Reserve
+		</nav>
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js"
