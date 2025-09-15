@@ -16,6 +16,9 @@
       "ELXP" 0;
 }
 
+p{
+    font-size: larger;
+}
 
 body {
     background-color: rgb(214, 177, 150);
@@ -66,7 +69,7 @@ h3{
     border-style: solid;
     border-color: rgb(74, 75, 77);
     border-image: initial;
-    padding: 45px;
+    padding: 35px;
     margin: 0px;
 }    
 
@@ -81,6 +84,17 @@ h3{
     display: none;
     width: 600px;
     height: 800px;
+}
+
+.UNAschool, .HCCschool{
+    width: 70%;
+    height: 700px;    
+    border-radius: 50%;
+}
+
+.profile-img{ 
+    border-radius: 50%;
+    display: inline-block;
 }
 
 #imageContainer{
@@ -135,7 +149,7 @@ footer {
     border-top: black;
     border-style: none none dotted;
 }
-.contact{
+/* .contact{
     border: black;
     border-style: dashed;
-}
+} */
