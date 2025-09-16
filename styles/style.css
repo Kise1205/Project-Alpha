@@ -38,8 +38,8 @@ body {
 }
 
 .nav-link:hover {
-    color: white;            
-    background-color: black;
+    color: black;            
+    background-color: orange;
 }
 
 .navbar-dark .navbar-toggler {
@@ -103,7 +103,7 @@ h3{
     display: inline-block;
 }
 
-#imageContainer{
+#imageContainer, #imageContainer2{
     display: flex;
     justify-content: center;
 }
@@ -155,13 +155,7 @@ footer {
     border-top: black;
     border-style: none none dotted;
 }
-.checkmore-button{
-    border-radius: 0%;
-}
-.checkmore-button:hover{
-    color: white;
-    background-color: black;
-}
+
 .fa {
   padding: 20px;
   font-size: 30px;
