@@ -50,6 +50,7 @@ Here’s how I made a button trigger an alert:
 			</div>
 		</div>
 	</div>
+```
 
 ```javascript
 document.
@@ -74,6 +75,8 @@ document.getElementById("imageContainer").onclick = function() {
         currentImg = 1;
     }
 };
+```
+---
 
 ## ➡️ Explanation:
 
@@ -95,7 +98,7 @@ Bootstrap 5
 Normalize.css
  – CSS reset
 
-jQuery
+javascript
  – simple scripting
 
 Images: Wireframe and Page map made with hand-drawn
