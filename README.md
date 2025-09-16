@@ -18,6 +18,7 @@ The site is built with **HTML5**, **CSS3**, **Bootstrap 5**, and some **JavaScri
 - **/images/** → Backgrounds, wireframes, and other images  
 
 ![Pagemap](https://github.com/Kise1205/Project-Alpha/issues/5#issue-3423906125)
+<img width="250px" src="(https://github.com/Kise1205/Project-Alpha/issues/5#issue-3423906125)" alt="page map"> 
 ---
 
 ## 🖼️ Wireframe
