@@ -11,13 +11,16 @@ The site is built with **HTML5**, **CSS3**, **Bootstrap 5**, and some **JavaScri
 ## 🗺️ Page Map
 - **index.html** → Homepage
 - **/pages/blog.html** → About page  
-- **/pages/project.html** → Education page  
-- **/pages/resources.html** → Contact page  
+- **/pages/education.html** → Education page  
+- **/pages/contact.html** → Contact page 
+- **/pages/submission.html** → Submission page 
 - **/styles/style.css** → Custom styles  
-- **/scripts/scripts.js** → JavaScript functions (e.g., button alert)  
-- **/images/** → Backgrounds, wireframes, and other images  
+- **/scripts/scripts.js** → JavaScript functions (e.g., images change)  
+- **assets/images/** → Backgrounds, wireframes, and other images  
 
 ![Pagemap](https://github.com/Kise1205/Project-Alpha/issues/5#issue-3423906125)
+
+*(Page map is saved in `assets/images/page-map.jpg`)*  
 
 ---
 
@@ -26,12 +29,12 @@ A wireframe was created to outline the structure of the homepage before developm
 
 ![Wireframe](https://github.com/Kise1205/Project-Alpha/issues/3#issue-3423896524)  
 
-*(Wireframe is saved in `/images/wireframe.png`)*  
+*(Wireframe is saved in `assets/images/project-wireframe.jpg`)*  
 
 ---
 
 ## 🌍 How to View
-- **Live Site:** [👉 Click here](https://your-live-link.com)  
+- **Live Site:** [👉 Click here](https://kise1205.github.io/Project-Alpha/)  
 - Or download the repository and open `index.html` directly in a browser.  
 
 ---
@@ -77,6 +80,7 @@ document.getElementById("imageContainer").onclick = function() {
     }
 };
 ```
+
 ---
 
 ## ➡️ Explanation:
@@ -99,7 +103,7 @@ Bootstrap 5
 Normalize.css
  – CSS reset
 
-javascript
+jQuery
  – simple scripting
 
 Images: Wireframe and Page map made with hand-drawn
